@@ -12,3 +12,247 @@ Google Font Import
      padding: 0;
      box-sizing: border-box;
 }
+
+body {
+     font-family: "Poppins", sans-serif;
+}
+
+a {
+     text-decoration: none;
+     text-transform: capitalize;
+}
+
+li {
+     list-style: none;
+}
+
+img {
+     width: 100%;
+}
+
+main {
+     margin-top: 100px;
+     margin-bottom: 130px;
+}
+
+/*================================
+    Re-useable Styling 
+=================================*/
+.container {
+     width: 1200px;
+     margin: 0 auto;
+}
+
+.btn {
+     font-size: 20px;
+     line-height: 24px;
+     padding: 16px 25px;
+     color: #ffffff;
+     background: #0c87d1;
+     display: inline-block;
+     border-radius: 5px;
+}
+
+.btn_white,
+.btn_outline {
+     background-color: #fff;
+     color: #161616;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 30px;
+     transition: all .3s ease-in-out;
+}
+
+.btn_white:hover {
+     background: #0c87d1;
+     color: #ffffff;
+}
+
+.btn_outline {
+     border: 1px solid #0c87d1;
+     font-size: 16px;
+     padding: 4px 16px;
+     color: #0c87d1;
+}
+
+.secondary_heading {
+     font-weight: 700;
+     font-size: 16px;
+     color: #161616;
+     margin: 15px 0 20px 0;
+}
+
+
+/*================================
+        Header Section Styling
+=================================*/
+#header {
+     margin: 30px 0;
+
+}
+
+#header .container {
+     height: 600;
+     color: #fff;
+     display: flex;
+     border-radius: 30px;
+     align-items: center;
+     justify-content: space-between;
+     padding: 33px 80px 0 106px;
+     background-color: black;
+}
+
+#header .container>div {
+     width: 50%;
+}
+
+.content_box {
+     margin-right: 24px;
+}
+
+.heading {
+     font-size: 70px;
+     font-weight: 700;
+     line-height: 80px;
+     text-transform: capitalize;
+}
+
+.description {
+     color: #fff;
+     font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     text-align: justify;
+}
+
+.btn_btn {
+     transition: all 0.3s ease-in-out 0s;
+     animation: moveInOut 2.5s infinite;
+}
+
+.btn_btn i {
+     transition: all 0.3s ease-in-out 0s;
+}
+.btn_btn:hover i {
+
+     margin-left: 10px;
+}
+
+.img_box {
+     position: relative;
+     top: 7px;
+}
+
+.catagories_row {
+     display: flex;
+     gap: 2%;
+
+}
+
+.left_content {
+     background-color: #000000;
+     width: 312px;
+     height: 312px;
+     border-radius: 10px;
+     padding: 30px;
+
+}
+
+.left_content a {
+     text-align: center;
+     display: block;
+     margin: 20px 0;
+
+}
+
+.right_content {
+     width: 80%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 24px;
+}
+
+.box {
+     border: 1px solid #E8E8E8;
+     border-radius: 10px;
+
+}
+
+.box img {
+     width: 100%;
+     height: 200px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+
+.box_content {
+     padding: 20px;
+}
+
+.details {
+     display: flex;
+     gap: 30px;
+     color: rgba(22, 22, 22, 0.7);
+
+}
+
+.details p {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 26px;
+
+}
+
+.btn_blog {
+     width: 20%;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 50px;
+     display: none;
+
+}
+
+/* MATCH SECTION */
+
+.team_match {
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.team_flag img {
+     width: 100%;
+     height: auto;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+}
+
+.team_match div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+}
+
+.team_match h3 {
+     font-size: 20px;
+}
+
+.team_match h3,
+.team_match span {
+     font-weight: 700;
+     line-height: 24px;
+     color: #161616;
+     text-transform: capitalize;
+}
+
+.match_time {
+
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     color: #4D4D4D;
+}
