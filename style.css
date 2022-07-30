@@ -43,6 +43,11 @@ main {
      margin: 0 auto;
 }
 
+.btn hero_btn {
+     border: 1px solid gray;
+     background-color: red;
+}
+
 .btn {
      font-size: 20px;
      line-height: 24px;
@@ -86,12 +91,12 @@ main {
 /*================================
         Header Section Styling
 =================================*/
-#header {
+#header_section {
      margin: 30px 0;
 
 }
 
-#header .container {
+#header_section .container {
      height: 600;
      color: #fff;
      display: flex;
@@ -102,7 +107,7 @@ main {
      background-color: black;
 }
 
-#header .container>div {
+#header_section .container>div {
      width: 50%;
 }
 
@@ -110,7 +115,7 @@ main {
      margin-right: 24px;
 }
 
-.heading {
+.hero_heading {
      font-size: 70px;
      font-weight: 700;
      line-height: 80px;
@@ -127,16 +132,16 @@ main {
      text-align: justify;
 }
 
-.btn_btn {
+.hero_btn {
      transition: all 0.3s ease-in-out 0s;
      animation: moveInOut 2.5s infinite;
 }
 
-.btn_btn i {
+.hero_btn i {
      transition: all 0.3s ease-in-out 0s;
 }
-.btn_btn:hover i {
 
+.hero_btn:hover i {
      margin-left: 10px;
 }
 
@@ -145,6 +150,9 @@ main {
      top: 7px;
 }
 
+/*======================================
+        catagories Section Styling
+=======================================*/
 .catagories_row {
      display: flex;
      gap: 2%;
@@ -221,6 +229,9 @@ main {
      display: flex;
      flex-direction: column;
      align-items: center;
+}
+.match-blog {
+     background-color: red;
 }
 
 .team_flag img {
