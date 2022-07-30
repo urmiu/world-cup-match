@@ -1,12 +1,4 @@
-/*================================
-Google Font Import 
-=================================*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-/*================================
-    Global Styling 
-=================================*/
 * {
      margin: 0;
      padding: 0;
@@ -35,9 +27,7 @@ main {
      margin-bottom: 130px;
 }
 
-/*================================
-    Re-useable Styling 
-=================================*/
+/*Re-useable Styling */
 .container {
      width: 1200px;
      margin: 0 auto;
@@ -88,9 +78,7 @@ main {
 }
 
 
-/*================================
-        Header Section Styling
-=================================*/
+/* Header*/
 #header_section {
      margin: 30px 0;
 
@@ -150,9 +138,8 @@ main {
      top: 7px;
 }
 
-/*======================================
-        catagories Section Styling
-=======================================*/
+
+      /*catagories*/
 .catagories_row {
      display: flex;
      gap: 2%;
@@ -221,9 +208,6 @@ main {
      display: none;
 
 }
-
-/* MATCH SECTION */
-
 .team_match {
      padding: 20px;
      display: flex;
@@ -268,9 +252,7 @@ main {
      color: #4D4D4D;
 }
 
-/*======================================
-        Footer Section Styling
-=======================================*/
+/*Footer Section Styling*/
 #footer {
      background-color: #000000;
      height: 444px;
@@ -362,10 +344,6 @@ main {
 .social_link:nth-child(5):hover i {
      background-color: #333;
 }
-
-/*======================================
-        Animation Keyframe
-=======================================*/
 @keyframes moveInOut {
      0% {
           transform: translateY(-15px);
@@ -380,10 +358,8 @@ main {
      }
 }
 
-/*======================================
-        RESPONSIVE DESIGN STYLING
-=======================================*/
-/*============= For Mobile ============*/
+/* RESPONSIVE DESIGN STYLING*/
+/*For Mobile */
 
 @media screen and (max-width: 766px) {
      #header_section {
@@ -485,7 +461,7 @@ main {
 
 }
 
-/*==== Medium devices (tablets, 768px and up) ====*/
+/*Medium devices*/
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
      .container {
